@@ -139,6 +139,7 @@ button:hover {
 }
 
 @media all and (max-width: 968px) {
+
   nav ul {
     margin-right: 0px;
     float: left;
@@ -235,7 +236,7 @@ form {
 /**section one**/
 .secone {
   background-image: url("donatemain.jpeg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .sectwo {
@@ -243,11 +244,19 @@ form {
 }
 .sectwosub {
   background-color: #364f6b;
-  background-image: url("donbackgif.gif");
+ background-image: url("donbackgif.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-
+#img{
+   max-width: 100%;
+   padding-bottom: 170px;
+}
+#img1{
+   max-width: 100%;
+   max-height:100%;
+   margin-bottom: 55px;
+}
 .secthree {
   background-image: url("donationmaintwo.webp");
   background-repeat: no-repeat;
