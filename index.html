@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fb00e9b9b1.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="donate.css">
+    <title>Donate</title>
+</head>
+<body>
+<!--Note: Only Compactable with 75% zoom scale on 14' screen-->
+     <!--NAVBAR  START-->
+
+     <nav>
+        <div class="logo"><a href="www.collcom.org"><img src="companylogo.png" alt="Collcom Logo" style="height: 80px;width: 240px;margin-top: 1rem;" ></a> </div>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+
+          <form id="form" role="search">
+              <input type="search" id="query" name="q"
+               placeholder="Search..."
+               aria-label="Search through site content" style="width: 60%;">
+              <button><strong>Search</strong></button>
+            </form>
+            <br>
+            <br><br>
+          <li><a href="index.html"><strong>Home</strong></a></li>
+          <li>
+            <label for="btn-1" class="show"><strong>About Us +</strong></label>
+            <a href="aboutus.html"><strong>About Us</strong></a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li><a href="aboutus.html#knowingcollcom">Knowing Collcom</a></li>
+              <li><a href="aboutus.html#governingbody">Governing Body</a></li>
+              <li><a href="aboutus.html#coreteam">Core Team</a></li>
+              <li><a href="aboutus.html#ourprojects">Our Projects</a></li>
+              <li><a href="aboutus.html#annualreports">Annual Reports</a></li>
+              <li><a href="aboutus.html#impactcreated">Impact Created</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <label for="btn-2" class="show"><strong>Events +</strong></label>
+            <a href="#"><strong>Events</strong></a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+              <li><a href="#">Verify Certificate</a></li>
+              <li><a href="#">Past Events Gallery</a></li>
+
+              <li>
+                <label for="btn-3" class="show">Ongoing Events +</label>
+                <a href="#">Ongoing Events <span class="fa fa-plus"></span></a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+                  <li><a href="#">Event-1</a></li>
+                  <li><a href="#">Event-2</a></li>
+                  <li><a href="#">Event-3</a></li>
+                  <li><a href="#">Event-4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-4" class="show"><strong>Get Involved</strong></label>
+            <a href="getinvolved.html"><strong>Get Involved</strong></a>
+            <input type="checkbox" id="btn-4">
+            <ul>
+              <li><a href="volunteer.html">Volunteer with Us</a></li>
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="patnership.html">Patnership</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html"><strong>Blogs</strong></a></li>
+              <li><a href="donate.html"><strong>Donate</strong></a></li>
+              <li><a href="contact.html"><strong>Contact</strong></a></li>
+              <li><a href="login.html" style="text-decoration: underline;"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+
+          <br>
+
+        </ul>
+      </nav>
+    <!--NAVBAR  END-->
+
+   <!--section one-->
+   <div class="secone">
+     <div class="seconesub">
+
+
+   <section class="text-gray-700 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color:  cyan;font-size: 90px;"><strong>Donate</strong><br>
+          <br class="hidden lg:inline-block"><strong>For Better Future !</strong>
+        </h1>
+        <br>
+        <p1 class="mb-8 leading-relaxed" style="font-size: 20px;color: white;">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p1>
+        <button id="donateButton" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"><form><script src="https://checkout.razorpay.com/v1/payment-button.js"  data-payment_button_id="pl_G4vxzcoh5g3E4A" > </script></form></strong></button>
+        <div class="flex justify-center">
+
+
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="donsd.png">
+      </div>
+
+    </div>
+
+  </section>
+</div>
+</div>
+
+<div class="branchsec">
+  <div class="branchsecsub">
+    <section class="text-gray-700 body-font">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex flex-wrap w-full">
+          <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h1 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider" style="color: #fc5185;"><strong>Donate through Bank Details</strong></h1>
+                <p1 class="leading-relaxed" style="color: cyan;"><li>Name: Collcom</li> <li>Bank Name- SBI, New Campus JNU, New Delhi-110067</li> <li>Account: 38426925535</li><li>IIFSC: SBIN0010441</li><li>Donate through Paytm on 9868189955 (CollCom)</li><br>After completion of payment, kindly email the transcation receipt to director@collcom.org
+
+                  Note: You name will be displayed in a week after verification. Thank you for your support for this noble cause.</p1>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider" style="color: #fc5185;">STEP 1</h2>
+                <p1 class="leading-relaxed" style="color: cyan;">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p1>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <circle cx="12" cy="5" r="3"></circle>
+                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider" style="color: #fc5185;">STEP 2</h2>
+                <p1 class="leading-relaxed" style="color: cyan;">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p1>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider" style="color: #fc5185;">STEP 3</h2>
+                <p1 class="leading-relaxed" style="color: cyan;">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p1>
+              </div>
+            </div>
+            <div class="flex relative">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider" style="color: #fc5185;">FINISH</h2>
+                <p1 class="leading-relaxed" style="color: cyan;">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p1>
+              </div>
+            </div>
+          </div>
+          <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="donsdf.jpg" alt="step">
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="sectwo">
+  <div class="sectwosub">
+    <section class="text-gray-700 body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="donatelast.jpeg">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color: cyan;"><strong>Donate for Someone's Happiness</strong></h1>
+          <p1 class="mb-8 leading-relaxed" style="color: #fc5185;"><strong>Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</strong></p1>
+          <div class="flex justify-center">
+
+          </div>
+          <div class="progress" style="margin-left:1rem ;margin-top: 2rem;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100" style="width: 17%;color: black;font-weight: 800;"><strong>17% Raised</strong> </div>
+
+          </div>
+          <span class="badge badge-pill badge-success"style="margin-top:2rem;float:left;"><strong>Raised: 16,880 INR</strong></span>
+          <span class="badge badge-pill badge-success" style="float: right;margin-top:2rem;margin-right: 1rem;"><strong>Goal:1,30,000 INR </strong></span>
+        </div>
+
+      </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<div class="secthree">
+
+  <div class="secthreesub">
+    <section class="text-gray-700 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0" style="color:  #fc5185;font-size: 40px;"><strong>Why Donate Us?</strong></h1>
+            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0" style="color: white;font-size: 25px;"><strong>Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</strong></p>
+          </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="missiongif.gif">
+            </div>
+            <h1 class="text-xl font-medium title-font text-gray-900 mt-5"style="color:cyan;"><strong>Our Mission</strong></h1>
+            <p class="text-base leading-relaxed mt-2" style="color: white;" >Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+
+          </div>
+          <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="visiongif.gif">
+            </div>
+            <h1 class="text-xl font-medium title-font text-gray-900 mt-5" style="color: cyan;"><strong>Our Vision</strong></h1>
+            <p class="text-base leading-relaxed mt-2" style="color: white;">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+
+          </div>
+          <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="stratgif.gif">
+            </div>
+            <h1 class="text-xl font-medium title-font text-gray-900 mt-5" style="color: cyan;"><strong>Our Strategy</strong></h1>
+            <p class="text-base leading-relaxed mt-2" style="color: white ;">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+    <!--footer-->
+
+    <div class="footer">
+      <div class="footersub">
+        <footer class="text-gray-700 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap md:text-left text-center order-first">
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+                <div class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                  <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                    <label for="footer-field" class="leading-7 text-sm text-gray-600"><strong>Email</strong></label>
+                    <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <button type="button" class="btn btn-warning" style="margin-top: 1rem;width: 5rem; margin: 1rem auto;"><strong>Subscribe</strong></button>
+                </div>
+                <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Submit Your Email
+                  <br class="lg:block hidden">So that you never miss updates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-200" style="background-color: black;">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+               <img src="companylogo.png" style="width: 140px;transform: skewX(0deg);">
+
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Collcom
+
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-red-600">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-red-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-red-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-red-500">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
